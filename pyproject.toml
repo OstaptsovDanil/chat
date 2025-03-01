@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "chat"
+version = "0.1.0"
+description = ""
+authors = ["Ostapcov Danil <dost4657@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.8"
+pydantic = "^2.10.6"
+websockets = "^15.0"
+uvicorn = "^0.34.0"
+sqlalchemy = "^2.0.38"
+alembic = "^1.14.1"
+asyncpg = "^0.30.0"
+pydantic-settings = "^2.8.0"
+bcrypt = "^4.3.0"
+email-validator = "^2.2.0"
+pyjwt = "^2.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
